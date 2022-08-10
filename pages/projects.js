@@ -1,12 +1,12 @@
 import Head from "next/head";
-import Image from "next/image";
 import Navbar from "../components/navbar";
+import "../styles/Projects.module.css";
 
-export default function Home() {
+export default function Project() {
   return (
     <>
       <Head>
-        <title>Ashish Jaiswar - Home</title>
+        <title>Ashish Jaiswar - Projects</title>
       </Head>
       <Navbar />
     </>

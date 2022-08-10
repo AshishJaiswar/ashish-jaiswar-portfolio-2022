@@ -1,12 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
 import Navbar from "../components/navbar";
 
-export default function Home() {
+export default function Blog() {
   return (
     <>
       <Head>
-        <title>Ashish Jaiswar - Home</title>
+        <title>Ashish Jaiswar - Blog</title>
       </Head>
       <Navbar />
     </>

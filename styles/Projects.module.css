@@ -1,0 +1,9 @@
+/* Projects */
+.projects {
+  margin: 5rem 0 10rem 0;
+}
+.project__heading {
+  text-align: center;
+  color: var(--primary-dark);
+  letter-spacing: 0.5px;
+}
