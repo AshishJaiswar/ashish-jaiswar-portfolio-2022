@@ -55,7 +55,12 @@ h6 {
 .mt-5 {
   margin-top: 5rem;
 }
-
+.mr-4 {
+  margin-right: 4px;
+}
+.ml-4 {
+  margin-left: 4px;
+}
 p {
   color: var(--primary-dark);
 }
@@ -189,6 +194,7 @@ span {
 .hero__social {
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
 }
 
 .hero__image {
@@ -259,9 +265,6 @@ span {
     font-size: 3.5rem;
     margin: 0;
   }
-  .hero__social {
-    margin-top: 3rem;
-  }
   .hero__image {
     width: 25rem;
     margin: 0;
@@ -280,9 +283,9 @@ span {
 .container {
   padding: 0;
 }
-.card__col {
-  padding: 1rem;
+.card {
   border-radius: 20px;
+  margin-bottom: 2rem;
 }
 .heading__title,
 .heading__title--recent {
@@ -310,6 +313,17 @@ span {
   letter-spacing: 0px;
 }
 
+@media screen and (min-width: 600px) {
+  .blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card {
+    width: 45%;
+    margin-bottom: 2rem;
+  }
+}
 @media screen and (min-width: 768px) {
   .heading__title {
     font-size: 2rem;
@@ -317,6 +331,9 @@ span {
   .heading__title,
   .heading__title--recent {
     text-align: left;
+  }
+  .card {
+    width: 30%;
   }
   .card--title {
     font-size: 1.8rem;
@@ -327,13 +344,14 @@ span {
   }
   .article {
     padding: 0.5rem 2rem;
-    margin: 0;
+    margin: 0 auto;
   }
 }
 
 /* Contact */
 
 .contact {
+  margin-top: 10rem;
   margin-bottom: 5rem;
 }
 

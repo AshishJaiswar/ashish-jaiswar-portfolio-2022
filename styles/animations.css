@@ -1,6 +1,5 @@
 /* Outline Out */
 .hvr-outline-out {
-  display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -22,10 +21,10 @@
 .hvr-outline-out:hover:before,
 .hvr-outline-out:focus:before,
 .hvr-outline-out:active:before {
-  top: -15px;
-  right: -15px;
-  bottom: -15px;
-  left: -15px;
+  top: -20px;
+  right: -20px;
+  bottom: -20px;
+  left: -20px;
   border: var(--primary-green) solid 5px;
   border-radius: 100%;
 }
