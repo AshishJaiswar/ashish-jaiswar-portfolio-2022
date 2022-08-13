@@ -5,6 +5,7 @@
   --box-shadow: rgba(59, 59, 59, 0.25);
   --secondary-dark: #848484;
   --border-grey: #c9c9c9;
+  --image-bg: #ebebeb;
 }
 
 /* Typography */
@@ -21,7 +22,6 @@ body {
 
 @media screen and (min-width: 768px) {
   body {
-    font-size: 1.8rem;
     max-width: 75vw;
     margin: 0 auto;
   }
@@ -65,7 +65,7 @@ p {
   color: var(--primary-dark);
 }
 span {
-  color: var();
+  color: var(--secondary-dark);
 }
 /* Navbar */
 .nav {
@@ -240,9 +240,6 @@ span {
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    margin-top: 6rem;
-  }
   .hero__title {
     text-align: left;
   }
@@ -399,8 +396,9 @@ span {
 
 /* Footer */
 .footer {
-  padding-top: 20px;
+  padding-top: 30px;
   margin-bottom: 5rem;
+  border-top: 1px solid #cdcdcd;
 }
 .footer__box {
   border-bottom: 1px solid var(--border-grey);
@@ -416,10 +414,11 @@ span {
   margin: 0;
 }
 .footer__item {
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 .footer__link {
   color: var(--primary-dark);
+  font-size: 1.6rem;
 }
 
 .collapse__content {

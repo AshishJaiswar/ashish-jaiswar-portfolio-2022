@@ -1,4 +1,5 @@
 import BlogCard from "./blog_card";
+import Link from "next/link";
 
 export default function FeatureBlog() {
   return (
@@ -17,9 +18,9 @@ export default function FeatureBlog() {
             <BlogCard />
           </div>
           <div className="button__container mt-2">
-            <button className="button button-outline article">
-              See all articles
-            </button>
+            <Link href="/blogs">
+              <a className="button button-outline article">See all articles</a>
+            </Link>
           </div>
         </div>
       </div>

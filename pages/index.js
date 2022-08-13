@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import FeatureBlog from "../components/feature_blogs";
 import Contact from "../components/contact";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <FeatureBlog />
       <Contact />
+      <Footer />
     </>
   );
 }

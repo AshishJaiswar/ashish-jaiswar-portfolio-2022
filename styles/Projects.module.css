@@ -1,9 +1,38 @@
 /* Projects */
 .projects {
-  margin: 5rem 0 10rem 0;
+  margin: 2rem 0 5rem 0;
 }
 .project__heading {
   text-align: center;
   color: var(--primary-dark);
   letter-spacing: 0.5px;
+  margin-bottom: 5rem;
+}
+
+.project_card {
+  margin-bottom: 9rem;
+}
+
+.project__image img {
+  border-radius: 10px;
+  min-width: 25rem;
+  background-color: var(--image-bg);
+}
+.project__title {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .project_card {
+    display: flex;
+  }
+  .project__image {
+    margin-right: 4rem;
+    max-width: 65rem;
+  }
+
+  .project__title {
+    margin-top: 0;
+  }
 }

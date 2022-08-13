@@ -1,6 +1,7 @@
 import Head from "next/head";
+import Footer from "../components/footer";
 import Navbar from "../components/navbar";
-import "../styles/Projects.module.css";
+import ProjectCard from "../components/project_card";
 
 export default function Project() {
   return (
@@ -9,6 +10,8 @@ export default function Project() {
         <title>Ashish Jaiswar - Projects</title>
       </Head>
       <Navbar />
+      <ProjectCard />
+      <Footer />
     </>
   );
 }

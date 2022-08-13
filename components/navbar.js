@@ -10,7 +10,7 @@ export default function Navbar({}) {
   };
 
   useEffect(() => {
-    let mode = sessionStorage.getItem("theme");
+    let mode = localStorage.getItem("theme");
     const root = document.querySelector(":root");
     if (mode == "dark") {
       root.style.setProperty("--primary-white", "#1a1a1a");
@@ -24,18 +24,20 @@ export default function Navbar({}) {
   });
 
   function getMode() {
-    let mode = sessionStorage.getItem("theme");
+    let mode = localStorage.getItem("theme");
     const root = document.querySelector(":root");
     if (mode == "light" || mode == null) {
       root.style.setProperty("--primary-white", "#1a1a1a");
       root.style.setProperty("--primary-dark", "#f9f9f9");
       root.style.setProperty("--box-shadow", "rgba(255, 255, 255, 0.25)");
-      sessionStorage.setItem("theme", "dark");
+      root.style.setProperty("--image-bg", "#484a51");
+      localStorage.setItem("theme", "dark");
     } else {
       root.style.setProperty("--primary-white", "#f9f9f9");
       root.style.setProperty("--primary-dark", "#1a1a1a");
       root.style.setProperty("--box-shadow", "rgba(59, 59, 59, 0.25)");
-      sessionStorage.setItem("theme", "light");
+      root.style.setProperty("--image-bg", "#ebebeb");
+      localStorage.setItem("theme", "light");
     }
   }
 
