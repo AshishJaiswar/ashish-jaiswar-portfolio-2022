@@ -126,6 +126,13 @@ export default function Footer() {
                     </a>
                   </Link>
                 </li>
+                <li className="footer__item">
+                  <Link href="https://www.buymeacoffee.com/AshishJaiswar">
+                    <a className="footer__link" target="_blank">
+                      Buy Me Coffee
+                    </a>
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

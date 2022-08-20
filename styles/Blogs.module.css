@@ -1,0 +1,29 @@
+.blogs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blogs__heading {
+  text-align: center;
+  color: var(--primary-dark);
+  letter-spacing: 0.5px;
+  margin-bottom: 5rem;
+}
+
+.blogs > :first-child > div::after {
+  content: "Featured article ✪";
+  font-size: 2rem;
+  font-weight: 500;
+  color: #2d9cdb;
+}
+@media screen and (min-width: 768px) {
+  .blogs > :first-child {
+    width: 60%;
+    margin-right: 20rem;
+    margin-bottom: 5rem;
+  }
+  .blogs > :first-child > h6 {
+    font-size: 3rem;
+  }
+}

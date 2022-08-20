@@ -8,12 +8,12 @@ export default function Contact() {
         <p className="contact__greet">
           Have a project in mind? Send me an email. <br /> Have a good day :)
         </p>
-        <Link href="mailto:ashish.jaiswar687@gmail.com">
+        <Link href="mailto:ashishjaiswar771@gmail.com">
           <a className="contact__email">
             <svg className="icon--mail">
               <use href="sprite.svg#mail"></use>
             </svg>
-            ashish.jaiswar687@gmail.com
+            ashishjaiswar771@gmail.com
           </a>
         </Link>
         <p className="contact__social">

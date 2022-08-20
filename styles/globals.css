@@ -65,7 +65,7 @@ p {
   color: var(--primary-dark);
 }
 span {
-  color: var(--secondary-dark);
+  color: var(--primary-dark);
 }
 /* Navbar */
 .nav {
@@ -283,6 +283,7 @@ span {
 .card {
   border-radius: 20px;
   margin-bottom: 2rem;
+  cursor: pointer;
 }
 .heading__title,
 .heading__title--recent {
@@ -290,8 +291,10 @@ span {
 }
 
 .card--title {
+  font-size: 2rem;
   font-weight: 500;
 }
+
 .heading__title--recent {
   font-weight: 400;
 }
@@ -301,12 +304,11 @@ span {
 }
 .card--title,
 .card--desc {
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
 }
 
 .card--desc,
 .card--date {
-  font-size: 1.4rem;
   letter-spacing: 0px;
 }
 
@@ -318,7 +320,7 @@ span {
   }
   .card {
     width: 45%;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -332,9 +334,7 @@ span {
   .card {
     width: 30%;
   }
-  .card--title {
-    font-size: 1.8rem;
-  }
+
   .card--desc,
   .card--date {
     font-size: 1.6rem;

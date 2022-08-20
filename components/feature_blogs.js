@@ -1,7 +1,7 @@
 import BlogCard from "./blog_card";
 import Link from "next/link";
 
-export default function FeatureBlog() {
+export default function FeatureBlog({ blogs }) {
   return (
     <section className="blog animate__animated animate__fadeInUp">
       <div className="container">
@@ -13,9 +13,15 @@ export default function FeatureBlog() {
         </h6>
         <div className="container">
           <div className="blogs">
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
+            {blogs.map((blog, index) => (
+              <BlogCard
+                key={index}
+                title={blog.title}
+                image={blog.image}
+                link={blog.link}
+                createdAt={blog.createdAt}
+              />
+            ))}
           </div>
           <div className="button__container mt-2">
             <Link href="/blogs">

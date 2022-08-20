@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -55,9 +56,11 @@ export default function Hero() {
           </div>
           <div className="column column-25 animate__animated animate__fadeInRight">
             <div className="hero__image hvr-outline-out">
-              <img
+              <Image
                 className="hero__image--profile"
-                src="ashish_jaiswar_profile-pic.png"
+                height="612px"
+                width="612px"
+                src="/ashish_jaiswar_profile-pic.png"
                 alt="Ashish Jaiswar Image"
               />
             </div>
