@@ -8,9 +8,9 @@ export default function FeatureBlog({ blogs }) {
         <h5 className="heading__title">
           I love to share my knowledge through writing.
         </h5>
-        <h6 className="heading__title--recent">
+        <p className="heading__title--recent">
           Check out a few of my most recent publishings.
-        </h6>
+        </p>
         <div className="container">
           <div className="blogs">
             {blogs.map((blog, index) => (

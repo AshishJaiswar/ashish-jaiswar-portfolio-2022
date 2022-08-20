@@ -14,5 +14,17 @@ Integrate hashnode blog with portfolio - done
 ---
 
 Date in features - done
-Redirect to 404
-open blog in new tab
+
+---
+
+swipe up Animations
+Final testing
+deploy app
+create link back to portfolio in hashnode
+
+---
+
+Enable blogs css after publishing 3rd blog
+
+- enable => justify-content: space around
+- remove => margin-right

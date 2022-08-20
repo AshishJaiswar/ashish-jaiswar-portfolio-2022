@@ -1,0 +1,7 @@
+.about__heading {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: var(--primary-dark);
+  letter-spacing: 0.5px;
+  margin-bottom: 5rem;
+}

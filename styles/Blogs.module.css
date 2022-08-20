@@ -2,9 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 4rem;
 }
 
 .blogs__heading {
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   color: var(--primary-dark);
   letter-spacing: 0.5px;
@@ -15,7 +17,7 @@
   content: "Featured article ✪";
   font-size: 2rem;
   font-weight: 500;
-  color: #2d9cdb;
+  color: dodgerblue;
 }
 @media screen and (min-width: 768px) {
   .blogs > :first-child {

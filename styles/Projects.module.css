@@ -3,6 +3,7 @@
   margin: 2rem 0 5rem 0;
 }
 .project__heading {
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   color: var(--primary-dark);
   letter-spacing: 0.5px;
