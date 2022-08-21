@@ -43,7 +43,7 @@ export default function Blog({ blogs }) {
         <title>Ashish Jaiswar - Blog</title>
       </Head>
       <Navbar />
-      <div className="mt-2">
+      <div className="mt-2 animate__animated animate__fadeInUp">
         <h3 className={style.blogs__heading}>
           Insightful and helpful content curated for you.
         </h3>

@@ -42,7 +42,28 @@ export default function Home({ blogs }) {
   return (
     <>
       <Head>
-        <title>Ashish Jaiswar - Home</title>
+        <title>
+          Ashish Jaiswar - full stack developer, automation engineer, content
+          writer.
+        </title>
+        <meta
+          name="description"
+          content="I'm Ashish. I'm a full stack developer, automation engineer and blogger. Welcome to my corner of the internet. I'm glad you're here!"
+        />
+        <meta
+          property="og:title"
+          content="Ashish Jaiswar - full stack developer, automation engineer, content"
+        />
+        <meta
+          property="og:description"
+          content="I'm Ashish. I'm a full stack developer, automation engineer and blogger. Welcome to my corner of the internet. I'm glad you're here!"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://drive.google.com/file/d/1Qp5PTXyt0sxwEAiqKEvwe7u1diXXoLyy/view?usp=sharing"
+        />
+        <meta property="og:url" content="" />
       </Head>
       <Navbar />
       <Hero />

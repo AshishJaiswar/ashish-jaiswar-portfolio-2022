@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div className="about__container">
+    <div className="about__container animate__animated animate__fadeInUp">
       <h3 className={style.about__heading}>Here's my story.</h3>
       <p>
         I'm Ashish Jaiswar, a <b>Automation Engineer</b>,{" "}

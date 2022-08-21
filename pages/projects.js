@@ -46,7 +46,7 @@ export default function Project({ projects }) {
         <title>Ashish Jaiswar - Projects</title>
       </Head>
       <Navbar />
-      <div className="mt-2">
+      <div className="mt-2 animate__animated animate__fadeInUp">
         <h3 className={style.project__heading}>
           A selection of my favorite works.
         </h3>
