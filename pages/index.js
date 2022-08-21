@@ -59,9 +59,10 @@ export default function Home({ blogs }) {
           content="I'm Ashish. I'm a full stack developer, automation engineer and blogger. Welcome to my corner of the internet. I'm glad you're here!"
         />
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Ashish Jaiswar" />
         <meta
           property="og:image"
-          content="https://github.com/AshishJaiswar/SEO/blob/main/meta_portfolio_image.png?raw=true"
+          content="https://media.graphassets.com/1C9GWxu1QlqVYByBAogj"
         />
         <meta property="og:url" content="" />
       </Head>
