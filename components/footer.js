@@ -137,8 +137,10 @@ export default function Footer() {
             </div>
           </div>
           <div className="copyright__container">
-            <h6 className="tech__used">Made with ❤️ and Next.js</h6>
-            <p>©Copyright Ashish Jaiswar - 2022</p>
+            <h6 className="tech__used">
+              Made with <span className="heart">❤️</span> and Next.js
+            </h6>
+            <p>© 2022 ~ Ashish Jaiswar</p>
           </div>
         </div>
       </div>

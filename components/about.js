@@ -3,7 +3,9 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div className="about__container animate__animated animate__fadeInUp">
+    <div
+      className={`${style.about__container} animate__animated animate__fadeInUp`}
+    >
       <h3 className={style.about__heading}>Here&apos;s my story.</h3>
       <p>
         I&apos;m Ashish Jaiswar, a <b>Automation Engineer</b>,&nbsp;
@@ -20,7 +22,7 @@ export default function About() {
         implemented devops pipeline to schedule jobs on daily basis.
       </p>
       <p>Here are a few technologies I&apos;ve been working:</p>
-      <div className="recent__skills">
+      <div className={style.recent__skills}>
         <p>
           • Python <br />
           • Selenium <br />
@@ -37,14 +39,14 @@ export default function About() {
       <p>
         You can find me on&nbsp;
         <Link href="https://twitter.com/ashishjaiswar_">
-          <a target="_blank" className="about__link">
+          <a target="_blank" className={style.about__link}>
             Twitter
           </a>
         </Link>
         &nbsp; where I share tech-related tidbits and build in public, or you
         can follow me on&nbsp;
         <Link href="https://github.com/AshishJaiswar">
-          <a target="_blank" className="about__link">
+          <a target="_blank" className={style.about__link}>
             Github
           </a>
         </Link>
@@ -52,14 +54,14 @@ export default function About() {
       </p>
 
       <h5 className="line-break">~~~</h5>
-      <div className="work__experience">
+      <div className={style.work__experience}>
         <h3>Work experience</h3>
-        <div className="company">
+        <div className={style.company}>
           <p>Infosys</p>
-          <span className="space"></span>
+          <span className={style.space}></span>
           <p>
             Automation Engineer&nbsp;
-            <svg className="cal">
+            <svg className={style.cal}>
               <use href="sprite.svg#calendar-outline"></use>
             </svg>
             2020 - present

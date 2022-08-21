@@ -444,6 +444,9 @@ span {
 .tech__used {
   margin-bottom: 5px;
 }
+.heart {
+  color: red;
+}
 @media screen and (min-width: 768px) {
   .collapse__chev {
     display: none;
@@ -472,48 +475,10 @@ span {
   }
 }
 
-/* About Us */
-.about__container {
-  margin: 2rem 0 5rem 0;
-}
-
-.recent__skills {
-  display: flex;
-}
-.about__link {
-  color: dodgerblue;
-}
+/* Line Break */
 .line-break {
   padding-top: 3rem;
   padding-bottom: 3rem;
   text-align: center;
   color: var(--secondary-dark);
-}
-.company {
-  display: flex;
-  justify-content: space-between;
-}
-.space {
-  width: 60%;
-  border-bottom: 1px solid var(--border-grey);
-  height: 15px;
-  margin: 0 1rem 0 1rem;
-}
-.cal {
-  height: 20px;
-  width: 20px;
-  position: relative;
-  top: 3px;
-  margin-left: 4px;
-  margin-right: 5px;
-}
-@media screen and (min-width: 330px) {
-  .recent__skills > p:first-child {
-    margin-right: 1rem;
-  }
-}
-@media screen and (min-width: 430px) {
-  .recent__skills > p:first-child {
-    margin-right: 8rem;
-  }
 }

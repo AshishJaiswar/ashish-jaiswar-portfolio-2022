@@ -61,7 +61,7 @@ export default function Home({ blogs }) {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://drive.google.com/file/d/1Qp5PTXyt0sxwEAiqKEvwe7u1diXXoLyy/view?usp=sharing"
+          content="https://media.graphassets.com/VdDeKkkkTDiIi9GuWC5c"
         />
         <meta property="og:url" content="" />
       </Head>
