@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function About() {
   return (
     <div className="about__container animate__animated animate__fadeInUp">
-      <h3 className={style.about__heading}>Here's my story.</h3>
+      <h3 className={style.about__heading}>Here&apos;s my story.</h3>
       <p>
-        I'm Ashish Jaiswar, a <b>Automation Engineer</b>,&nbsp;
+        I&apos;m Ashish Jaiswar, a <b>Automation Engineer</b>,&nbsp;
         <b>Full stack developer</b>, with some handson knowledge of&nbsp;
         <b>DevOps</b>. My mission is to build a personal <b>brand</b>, deliver
         quality work and spread my knowledge to the community. Exploring
@@ -14,18 +14,18 @@ export default function About() {
         <b>blogging</b> and learing new skills.
       </p>
       <p>
-        I'm currently working as a automation enginner at <b>Infosys</b> where i
-        create automated script for health checks(web functionality test) and
-        processes using <b>python</b> and <b>selenium</b>. I have implemented
-        devops pipeline to schedule jobs on daily basis.
+        I&apos;m currently working as a automation enginner at <b>Infosys</b>{" "}
+        where i create automated script for health checks(web functionality
+        test) and processes using <b>python</b> and <b>selenium</b>. I have
+        implemented devops pipeline to schedule jobs on daily basis.
       </p>
-      <p>Here are a few technologies I've been working:</p>
+      <p>Here are a few technologies I&apos;ve been working:</p>
       <div className="recent__skills">
         <p>
           • Python <br />
           • Selenium <br />
           • DevOps <br />
-          • Postman and API's <br />
+          • Postman and API&apos;s <br />
         </p>
         <p>
           • JavaScript <br />
@@ -48,7 +48,7 @@ export default function About() {
             Github
           </a>
         </Link>
-        &nbsp; . I often write about my findings on my blog
+        &nbsp;. I often write about my findings on my blog
       </p>
 
       <h5 className="line-break">~~~</h5>
