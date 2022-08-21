@@ -6,8 +6,8 @@ export default function About() {
     <div className="about__container animate__animated animate__fadeInUp">
       <h3 className={style.about__heading}>Here's my story.</h3>
       <p>
-        I'm Ashish Jaiswar, a <b>Automation Engineer</b>,{" "}
-        <b>Full stack developer</b>, with some handson knowledge of{" "}
+        I'm Ashish Jaiswar, a <b>Automation Engineer</b>,&nbsp;
+        <b>Full stack developer</b>, with some handson knowledge of&nbsp;
         <b>DevOps</b>. My mission is to build a personal <b>brand</b>, deliver
         quality work and spread my knowledge to the community. Exploring
         youtube,
@@ -35,20 +35,20 @@ export default function About() {
         </p>
       </div>
       <p>
-        You can find me on{" "}
+        You can find me on&nbsp;
         <Link href="https://twitter.com/ashishjaiswar_">
           <a target="_blank" className="about__link">
             Twitter
           </a>
-        </Link>{" "}
-        where I share tech-related tidbits and build in public, or you can
-        follow me on{" "}
+        </Link>
+        &nbsp; where I share tech-related tidbits and build in public, or you
+        can follow me on&nbsp;
         <Link href="https://github.com/AshishJaiswar">
           <a target="_blank" className="about__link">
             Github
           </a>
-        </Link>{" "}
-        . I often write about my findings on my blog
+        </Link>
+        &nbsp; . I often write about my findings on my blog
       </p>
 
       <h5 className="line-break">~~~</h5>
@@ -58,7 +58,7 @@ export default function About() {
           <p>Infosys</p>
           <span className="space"></span>
           <p>
-            Automation Engineer{" "}
+            Automation Engineer&nbsp;
             <svg className="cal">
               <use href="sprite.svg#calendar-outline"></use>
             </svg>
