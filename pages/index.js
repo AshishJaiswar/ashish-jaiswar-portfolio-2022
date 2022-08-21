@@ -61,7 +61,7 @@ export default function Home({ blogs }) {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://media.graphassets.com/VdDeKkkkTDiIi9GuWC5c"
+          content="https://github.com/AshishJaiswar/SEO/blob/main/meta_portfolio_image.png?raw=true"
         />
         <meta property="og:url" content="" />
       </Head>
