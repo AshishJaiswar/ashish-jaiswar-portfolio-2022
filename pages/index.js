@@ -62,9 +62,9 @@ export default function Home({ blogs }) {
         <meta property="og:site_name" content="Ashish Jaiswar" />
         <meta
           property="og:image"
-          content="https://media.graphassets.com/1C9GWxu1QlqVYByBAogj"
+          content="https://media.graphassets.com/SEXjfYBTO24sJX05jqTA"
         />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="http://ashishjaiswar.com/" />
       </Head>
       <Navbar />
       <Hero />

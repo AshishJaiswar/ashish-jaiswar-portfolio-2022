@@ -44,6 +44,25 @@ export default function Project({ projects }) {
     <>
       <Head>
         <title>Ashish Jaiswar - Projects</title>
+        <meta
+          name="description"
+          content="I'm Ashish. I'm a full stack developer, automation engineer and blogger. Welcome to my corner of the internet. I'm glad you're here!"
+        />
+        <meta
+          property="og:title"
+          content="Ashish Jaiswar - full stack developer, automation engineer, content"
+        />
+        <meta
+          property="og:description"
+          content="I'm Ashish. I'm a full stack developer, automation engineer and blogger. Welcome to my corner of the internet. I'm glad you're here!"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Ashish Jaiswar" />
+        <meta
+          property="og:image"
+          content="https://media.graphassets.com/SEXjfYBTO24sJX05jqTA"
+        />
+        <meta property="og:url" content="http://ashishjaiswar.com/" />
       </Head>
       <Navbar />
       <div className="mt-2 animate__animated animate__fadeInUp">
