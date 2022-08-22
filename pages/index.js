@@ -52,7 +52,7 @@ export default function Home({ blogs }) {
         />
         <meta
           property="og:title"
-          content="Ashish Jaiswar - full stack developer, automation engineer, content"
+          content="Ashish Jaiswar - full stack developer, automation engineer"
         />
         <meta
           property="og:description"
