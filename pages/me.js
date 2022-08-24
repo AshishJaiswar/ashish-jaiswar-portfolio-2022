@@ -11,7 +11,7 @@ export async function getStaticProps() {
   const endpoint = `https://api-ap-south-1.hygraph.com/v2/${process.env.KEY}/master`;
   const query = gql`
     query articles {
-      blogs(orderBy: id_DESC, first: 3) {
+      blogs(orderBy: id_DESC, first: 2) {
         title
         image {
           url
