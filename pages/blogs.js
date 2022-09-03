@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import BlogCard from "../components/blog_card";
 import style from "../styles/Blogs.module.css";
 import { request, gql } from "graphql-request";
+import Link from "next/link";
 
 export async function getStaticProps() {
   require("dotenv").config();
@@ -77,6 +78,11 @@ export default function Blog({ blogs }) {
               createdAt={blog.createdAt}
             />
           ))}
+          <Link href="https://ashishjaiswar.hashnode.dev">
+            <a className={`button button-outline ${style.all_article}`}>
+              See All Articles
+            </a>
+          </Link>
         </div>
       </div>
       <Footer />

@@ -13,6 +13,9 @@
   margin-bottom: 5rem;
 }
 
+.all_article {
+  margin: 3rem auto;
+}
 .blogs > :first-child > div::after {
   content: "Featured article ✪";
   font-size: 2rem;
