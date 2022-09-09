@@ -44,21 +44,29 @@ export default function Home({ blogs }) {
     <>
       <Head>
         <title>
-          Ashish Jaiswar - full stack developer, automation engineer, content
-          writer.
+          Ashish Jaiswar - automation engineer, full stack developer, tech
+          blogger
         </title>
         <meta
           name="description"
-          content="I'm Ashish. I'm a full stack developer, automation engineer and blogger. Welcome to my corner of the internet. I'm glad you're here!"
+          content="Hey, I'm Ashish Jaiswar. I'm a Automation Engineer, Full Stack Developer  and Tech Blogger. Welcome to my corner of the Internet. I'm glad you're here!"
         />
         <meta
+          name="keywords"
+          content="Ashish Jaiswar, Portfolio, Automation Engineer, Python Developer, Full Stack Developer, Ashish Jaiswar Hashnode,
+        Ashish Jaiswar Medium"
+        />
+        <meta name="author" content="Ashish Jaiswar" />
+        <meta
           property="og:title"
-          content="Ashish Jaiswar - full stack developer, automation engineer"
+          content="Ashish Jaiswar - Automation Engineer, Full Stack Developer"
         />
         <meta
           property="og:description"
-          content="I'm Ashish. I'm a full stack developer, automation engineer and blogger. Welcome to my corner of the internet. I'm glad you're here!"
+          content="I'm Ashish Jaiswar, a Automation Engineer, Full stack developer, with some handson knowledge of DevOps.
+          My mission is to build a personal brand, deliver quality work and spread my knowledge."
         />
+        <meta name="copyright" content="Ashish Jaiswar"></meta>
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Ashish Jaiswar" />
         <meta
