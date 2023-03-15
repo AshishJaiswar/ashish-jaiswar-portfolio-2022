@@ -68,7 +68,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      <Link href="Ashish-Jaiswar-Software-developer-Resume.pdf">
+      <Link href="https://ashishjaiswar.showwcase.com/">
         <a className="button mt-2" target="_blank">
           Resume
         </a>
