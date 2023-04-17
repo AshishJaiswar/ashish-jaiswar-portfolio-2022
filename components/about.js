@@ -64,11 +64,11 @@ export default function About() {
             <svg className={style.cal}>
               <use href="sprite.svg#calendar-outline"></use>
             </svg>
-            2020 - present
+            2020 - 2023
           </p>
         </div>
       </div>
-      <Link href="https://ashishjaiswar.showwcase.com/">
+      <Link href="showcase-resume.pdf">
         <a className="button mt-2" target="_blank">
           Resume
         </a>
