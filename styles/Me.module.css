@@ -35,6 +35,12 @@
   margin-left: 4px;
   margin-right: 5px;
 }
+
+.separator {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 330px) {
   .recent__skills > p:first-child {
     margin-right: 1rem;
