@@ -63,9 +63,11 @@ export default function Navbar({}) {
     <>
       <header>
         <nav className="nav">
-          <svg className="nav__logo">
-            <use href="/sprite.svg#ashish-jaiswar-logo"></use>
-          </svg>
+          <Link href="/">
+            <svg className="nav__logo">
+              <use href="/sprite.svg#ashish-jaiswar-logo"></use>
+            </svg>
+          </Link>
           <ul className="lists nav__list">
             <li className="nav__item">
               <Link href="/">
