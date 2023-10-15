@@ -120,7 +120,7 @@ export default function Footer() {
               </div>
               <ul className="lists collapse__content">
                 <li className="footer__item">
-                  <Link href="Ashish-Jaiswar-portfolio-Resume.pdf">
+                  <Link href="Ashish-Frontend-dev.pdf">
                     <a className="footer__link" target="_blank">
                       Resume
                     </a>

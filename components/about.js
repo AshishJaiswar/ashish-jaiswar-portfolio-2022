@@ -100,7 +100,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      <Link href="Ashish-Jaiswar-portfolio-Resume.pdf">
+      <Link href="Ashish-Frontend-dev.pdf">
         <a className="button mt-2" target="_blank">
           Resume
         </a>

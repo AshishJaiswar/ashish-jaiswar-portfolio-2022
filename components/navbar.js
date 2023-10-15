@@ -85,6 +85,13 @@ export default function Navbar({}) {
               </Link>
             </li>
             <li className="nav__item">
+              <Link href="Ashish-Frontend-dev.pdf">
+                <a className={`nav__link}`} target="_blank">
+                  Resume
+                </a>
+              </Link>
+            </li>
+            <li className="nav__item">
               <Link href="/me">
                 <a className={`nav__link ${isActive("/me")}`}>About me</a>
               </Link>
