@@ -85,7 +85,7 @@ export default function Navbar({}) {
               </Link>
             </li>
             <li className="nav__item">
-              <Link href="/Ashish-Frontend-dev.pdf">
+              <Link href="http://bit.ly/3SUr9q3">
                 <a className="nav__link" target="_blank">
                   Resume
                 </a>
