@@ -6,6 +6,7 @@ import Contact from "../components/contact";
 import Footer from "../components/footer";
 
 import { request, gql } from "graphql-request";
+import FeaturedProject from "../components/featuredProject";
 
 export async function getStaticProps() {
   require("dotenv").config();
@@ -77,6 +78,7 @@ export default function Home({ blogs }) {
       </Head>
       <Navbar />
       <Hero />
+      <FeaturedProject />
       <FeatureBlog blogs={blogs} />
       <Contact />
       <Footer />

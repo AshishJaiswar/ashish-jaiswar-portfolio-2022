@@ -483,3 +483,47 @@ span {
   text-align: center;
   color: var(--secondary-dark);
 }
+
+/* Featured Project */
+.featured-project {
+  background: #272727;
+  height: 45rem;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.project-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-name {
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  margin-left: 5px;
+  color: #fff;
+}
+
+.project-image {
+  padding: 20px 0 0 20px;
+}
+
+.project-link {
+  background-color: rgb(143, 92, 255);
+}
+
+.project-info {
+  color: #fff;
+  text-align: center;
+}
+@media (min-width: 1000px) {
+  .featured-project {
+    display: flex;
+    align-items: center;
+  }
+}
