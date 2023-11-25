@@ -10,7 +10,7 @@ export default function Hero() {
             <div className="hero">
               <h2 className="hero__title">
                 I&apos;m <span className="highlight">Ashish Jaiswar</span>.
-                I&apos;m a Full Stack developer, Automation Engineer.
+                I&apos;m a Full Stack developer.
               </h2>
               <ul className="lists hero__social">
                 <li className="hero__social--item">
