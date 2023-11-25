@@ -24,8 +24,8 @@ export default function FeatureBlog({ blogs }) {
             ))}
           </div>
           <div className="button__container mt-2">
-            <Link href="/blogs">
-              <a className="button button-outline article">See all articles</a>
+            <Link href="/blogs" className="button button-outline article">
+              See all articles
             </Link>
           </div>
         </div>

@@ -9,18 +9,16 @@ export default function ProjectCard({ title, description, image, link }) {
         <div className={style.project__image}>
           <Image
             src={image.url}
-            height={image.height}
-            width={image.width}
+            width={1000}
+            height={400}
             alt="Project image within a mock device"
           />
         </div>
         <div className={style.project__details}>
           <h4 className={style.project__title}>{title}</h4>
           <p className={style.project__desc}>{description}</p>
-          <Link href={link}>
-            <a className="button" target="_blank">
-              Visit website
-            </a>
+          <Link href={link} className="button" target="_blank">
+            Visit website
           </Link>
         </div>
       </div>

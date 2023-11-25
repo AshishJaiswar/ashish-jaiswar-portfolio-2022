@@ -37,17 +37,21 @@ export default function About() {
       </div>
       <p>
         You can find me on&nbsp;
-        <Link href="https://twitter.com/ashishjaiswar_">
-          <a target="_blank" className={style.about__link}>
-            Twitter
-          </a>
+        <Link
+          href="https://twitter.com/ashishjaiswar_"
+          target="_blank"
+          className={style.about__link}
+        >
+          Twitter
         </Link>
         &nbsp; where I share tech-related tidbits and build in public, or you
         can follow me on&nbsp;
-        <Link href="https://github.com/AshishJaiswar">
-          <a target="_blank" className={style.about__link}>
-            Github
-          </a>
+        <Link
+          href="https://github.com/AshishJaiswar"
+          target="_blank"
+          className={style.about__link}
+        >
+          Github
         </Link>
         &nbsp;. I often write about my findings on my blog
       </p>
@@ -100,10 +104,12 @@ export default function About() {
           </p>
         </div>
       </div>
-      <Link href="http://bit.ly/3SUr9q3">
-        <a className="button mt-2" target="_blank">
-          Resume
-        </a>
+      <Link
+        href="http://bit.ly/3SUr9q3"
+        className="button mt-2"
+        target="_blank"
+      >
+        Resume
       </Link>
     </div>
   );

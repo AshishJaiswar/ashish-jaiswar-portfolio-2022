@@ -33,23 +33,23 @@ export default function Footer() {
               </div>
               <ul className="lists collapse__content">
                 <li className="footer__item">
-                  <Link href="/">
-                    <a className="footer__link">Home</a>
+                  <Link href="/" className="footer__link">
+                    Home
                   </Link>
                 </li>
                 <li className="footer__item">
-                  <Link href="/projects">
-                    <a className="footer__link">Projects</a>
+                  <Link href="/projects" className="footer__link">
+                    Projects
                   </Link>
                 </li>
                 <li className="footer__item">
-                  <Link href="/blogs">
-                    <a className="footer__link">Blog</a>
+                  <Link href="/blogs" className="footer__link">
+                    Blog
                   </Link>
                 </li>
                 <li className="footer__item">
-                  <Link href="/me">
-                    <a className="footer__link">About Me</a>
+                  <Link href="/me" className="footer__link">
+                    About Me
                   </Link>
                 </li>
               </ul>
@@ -69,38 +69,48 @@ export default function Footer() {
               </div>
               <ul className="lists collapse__content">
                 <li className="footer__item">
-                  <Link href="https://twitter.com/ashishjaiswar_">
-                    <a className="footer__link" target="_blank">
-                      Twitter
-                    </a>
+                  <Link
+                    href="https://twitter.com/ashishjaiswar_"
+                    className="footer__link"
+                    target="_blank"
+                  >
+                    Twitter
                   </Link>
                 </li>
                 <li className="footer__item">
-                  <Link href="https://www.linkedin.com/in/ashishjaiswar">
-                    <a className="footer__link" target="_blank">
-                      LinkedIn
-                    </a>
+                  <Link
+                    href="https://www.linkedin.com/in/ashishjaiswar"
+                    className="footer__link"
+                    target="_blank"
+                  >
+                    LinkedIn
                   </Link>
                 </li>
                 <li className="footer__item">
-                  <Link href="https://medium.com/@ashishjaiswar">
-                    <a className="footer__link" target="_blank">
-                      Medium
-                    </a>
+                  <Link
+                    href="https://medium.com/@ashishjaiswar"
+                    className="footer__link"
+                    target="_blank"
+                  >
+                    Medium
                   </Link>
                 </li>
                 <li className="footer__item">
-                  <Link href="https://ashishjaiswar.hashnode.dev/">
-                    <a className="footer__link" target="_blank">
-                      Hashnode
-                    </a>
+                  <Link
+                    href="https://ashishjaiswar.hashnode.dev/"
+                    className="footer__link"
+                    target="_blank"
+                  >
+                    Hashnode
                   </Link>
                 </li>
                 <li className="footer__item">
-                  <Link href="https://github.com/AshishJaiswar">
-                    <a className="footer__link" target="_blank">
-                      Github
-                    </a>
+                  <Link
+                    href="https://github.com/AshishJaiswar"
+                    className="footer__link"
+                    target="_blank"
+                  >
+                    Github
                   </Link>
                 </li>
               </ul>
@@ -120,17 +130,21 @@ export default function Footer() {
               </div>
               <ul className="lists collapse__content">
                 <li className="footer__item">
-                  <Link href="http://bit.ly/3SUr9q3">
-                    <a className="footer__link" target="_blank">
-                      Resume
-                    </a>
+                  <Link
+                    href="http://bit.ly/3SUr9q3"
+                    className="footer__link"
+                    target="_blank"
+                  >
+                    Resume
                   </Link>
                 </li>
                 <li className="footer__item">
-                  <Link href="https://www.buymeacoffee.com/AshishJaiswar">
-                    <a className="footer__link" target="_blank">
-                      Buy Me Coffee
-                    </a>
+                  <Link
+                    href="https://www.buymeacoffee.com/AshishJaiswar"
+                    className="footer__link"
+                    target="_blank"
+                  >
+                    Buy Me Coffee
                   </Link>
                 </li>
               </ul>

@@ -86,10 +86,11 @@ export default function Blog({ blogs }) {
               createdAt={blog.createdAt}
             />
           ))}
-          <Link href="https://ashishjaiswar.hashnode.dev">
-            <a className={`button button-outline ${style.all_article}`}>
-              See All Articles
-            </a>
+          <Link
+            href="https://ashishjaiswar.hashnode.dev"
+            className={`button button-outline ${style.all_article}`}
+          >
+            See All Articles
           </Link>
         </div>
       </div>

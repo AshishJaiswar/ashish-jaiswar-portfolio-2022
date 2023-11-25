@@ -70,30 +70,35 @@ export default function Navbar({}) {
           </Link>
           <ul className="lists nav__list">
             <li className="nav__item">
-              <Link href="/">
-                <a className={`nav__link ${isActive("/")}`}>Home</a>
+              <Link href="/" className={`nav__link ${isActive("/")}`}>
+                Home
               </Link>
             </li>
             <li className="nav__item">
-              <Link href="/projects">
-                <a className={`nav__link ${isActive("/projects")}`}>Projects</a>
+              <Link
+                href="/projects"
+                className={`nav__link ${isActive("/projects")}`}
+              >
+                Projects
               </Link>
             </li>
             <li className="nav__item">
-              <Link href="/blogs">
-                <a className={`nav__link ${isActive("/blogs")}`}>Blog</a>
+              <Link href="/blogs" className={`nav__link ${isActive("/blogs")}`}>
+                Blog
               </Link>
             </li>
             <li className="nav__item">
-              <Link href="http://bit.ly/3SUr9q3">
-                <a className="nav__link" target="_blank">
-                  Resume
-                </a>
+              <Link
+                href="http://bit.ly/3SUr9q3"
+                className="nav__link"
+                target="_blank"
+              >
+                Resume
               </Link>
             </li>
             <li className="nav__item">
-              <Link href="/me">
-                <a className={`nav__link ${isActive("/me")}`}>About me</a>
+              <Link href="/me" className={`nav__link ${isActive("/me")}`}>
+                About me
               </Link>
             </li>
           </ul>

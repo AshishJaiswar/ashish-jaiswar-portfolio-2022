@@ -9,20 +9,23 @@ function FeaturedProject() {
         <div className="project-data">
           <div className="project-name">
             <Image src="/logo.png" width={20} height={20} />
-            <a href="https://recifood.fun" className="link">
+            <Link href="https://recifood.fun" className="link">
               www.recifood.fun
-            </a>
+            </Link>
           </div>
           <h3 style={{ color: "#fff" }}>Recifood</h3>
           <p className="project-info">
             Embark on a culinary adventure and unlock the magic of flavors!{" "}
           </p>
-          <Link href="https://recifood.fun">
-            <a className="button project-link  ml-4">Visit</a>
+          <Link
+            href="https://recifood.fun"
+            className="button project-link  ml-4"
+          >
+            Visit
           </Link>
         </div>
         <div className="project-image">
-          <Image src="/recifood.png" width={900} height={400} />
+          <Image src="/recifood-project.png" width={600} height={400} />
         </div>
       </div>
     </section>

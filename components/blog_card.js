@@ -24,19 +24,14 @@ function formatDate(date) {
 }
 export default function BlogCard({ title, image, link, createdAt }) {
   return (
-    <Link href={link}>
-      <div className="card">
+    <div className="card">
+      <Link href={link}>
         <div className="card--image">
-          <Image
-            src={image.url}
-            width={image.width}
-            height={image.height}
-            alt="Blog Image"
-          />
+          <Image src={image.url} width={1000} height={350} alt="Blog Image" />
         </div>
         <h6 className="card--title">{title}</h6>
         <span className="card--date">{formatDate(createdAt)}</span>
-      </div>
-    </Link>
+      </Link>
+    </div>
   );
 }
