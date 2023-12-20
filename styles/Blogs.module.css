@@ -16,7 +16,7 @@
 .all_article {
   margin: 3rem auto;
 }
-.blogs > :first-child > div::after {
+.blogs > :first-child div::after {
   content: "Featured article ✪";
   font-size: 2rem;
   font-weight: 500;
@@ -27,6 +27,9 @@
     width: 60%;
     margin-right: 20rem;
     margin-bottom: 5rem;
+  }
+  .blogs > :first-child img {
+    height: 450px;
   }
 
   .blogs > :first-child > h6 {
