@@ -9,7 +9,7 @@ export default function ProjectCard({ title, description, image, link }) {
         <div className={style.project__image}>
           <Image
             src={image.url}
-            width={1000}
+            width={1280}
             height={400}
             alt="Project image within a mock device"
           />
