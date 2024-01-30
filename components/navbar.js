@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { useEffect } from "react";
+import Resume from "./Resume";
 
 export default function Navbar({}) {
   const router = useRouter();
@@ -88,13 +89,7 @@ export default function Navbar({}) {
               </Link>
             </li>
             <li className="nav__item">
-              <Link
-                href="http://bit.ly/3SUr9q3"
-                className="nav__link"
-                target="_blank"
-              >
-                Resume
-              </Link>
+              <Resume className="nav__link" />
             </li>
             <li className="nav__item">
               <Link href="/me" className={`nav__link ${isActive("/me")}`}>

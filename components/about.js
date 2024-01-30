@@ -1,5 +1,6 @@
 import style from "../styles/Me.module.css";
 import Link from "next/link";
+import Resume from "./Resume";
 
 export default function About() {
   return (
@@ -104,13 +105,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      <Link
-        href="http://bit.ly/3SUr9q3"
-        className="button mt-2"
-        target="_blank"
-      >
-        Resume
-      </Link>
+      <Resume className="button mt-2" />
     </div>
   );
 }

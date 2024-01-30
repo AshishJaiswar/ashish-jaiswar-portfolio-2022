@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Resume from "./Resume";
 
 export default function Footer() {
   function toogleFooterMenu(id) {
@@ -130,13 +131,7 @@ export default function Footer() {
               </div>
               <ul className="lists collapse__content">
                 <li className="footer__item">
-                  <Link
-                    href="http://bit.ly/3SUr9q3"
-                    className="footer__link"
-                    target="_blank"
-                  >
-                    Resume
-                  </Link>
+                  <Resume classnam="footer__link" />
                 </li>
                 <li className="footer__item">
                   <Link
