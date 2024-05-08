@@ -66,7 +66,7 @@ export default function Hero() {
                 className="hero__image--profile"
                 width={300}
                 height={250}
-                src="/ashish-jaiswar.jpeg"
+                src="/ashish-jaiswar.png"
                 alt="Ashish Jaiswar Image"
               />
             </div>
